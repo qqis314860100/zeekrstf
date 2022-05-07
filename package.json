@@ -30,6 +30,8 @@
   },
   "scripts": {
     "test": "gulp test",
+    "clear":"gulp clean &&gulp webpack:build ",
+    "start":"node bin/stf local",
     "prepare": "bower install && not-in-install && gulp build || in-install"
   },
   "dependencies": {

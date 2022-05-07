@@ -1,0 +1,9 @@
+[user]
+  email = ban9ban9da@qq.
+  name = qqis314860100
+
+[http "https://www.github.com"]
+  proxy = http://127.0.0.1:7890
+
+[https "https://www.github.com"]
+  proxy = http://127.0.0.1:7890
