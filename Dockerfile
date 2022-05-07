@@ -2,7 +2,7 @@
 # Copyright © 2022 contains code contributed by Orange SA, authors: Denis Barbaron - Licensed under the Apache license 2.0
 #
 
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 # Sneak the stf executable into $PATH.
 ENV PATH /app/bin:$PATH
